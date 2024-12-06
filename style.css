@@ -1,7 +1,11 @@
-html, body{
-   padding: 0;
-   margin: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+.top-container {
+       padding-top: 30px;
+    }
 
 .main{
     width: 100%;
