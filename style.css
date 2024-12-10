@@ -1,4 +1,14 @@
 
+@font-face {
+    font-family: 'Robot';
+    src: url(fonts/Robotronica\ Italic.ttf  );
+}
+
+@font-face {
+    font-family: 'Alien';
+    src: url(fonts/Alien\ Robot\ Italic.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +19,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(webistebackground.jpg);
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    height: 120vh;
 }
 
 .navbar{
@@ -20,17 +30,17 @@
 
 .icon{
     width: 200px;
-    float: left;
+	display: inline-block;
     height: 70px;
 }
 
 .logo{
-    color:gray;
+    color: white;
     font-size: 20px;
-    font-family: Arial;
+    font-family: 'Robot';
     padding-left: 20px;
     float: left;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .menu{
@@ -49,14 +59,14 @@ ul{
 ul li{
     list-style: none;
     margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
+    margin-top: 30px;
+    font-size: 12px;
 }
 
 ul li a{
     text-decoration: none;
     color: #fff;
-    font-family: Arial;
+    font-family: 'Alien';
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
@@ -72,12 +82,13 @@ ul li a:hover{
 }
 
 .srch{
-    font-family: 'Times New Roman';
+    font-family: 'Robot';
     width: 200px;
     height: 40px;
     background: transparent;
     border: 1px solid #ff7200;
     margin-top: 13px;
+;
     color: #fff;
     border-right: none;
     font-size: 16px;
@@ -117,13 +128,13 @@ ul li a:hover{
 .content .par{
     padding-left: 20px;
     padding-bottom: 25px;
-    font-family: Arial;
+    font-family: 'Alien';
     letter-spacing: 1.2px;
     line-height: 30px;
 }
 
 .content h1{
-    font-family: 'Times New Roman';
+    font-family: 'Alien';
     font-size: 50px;
     padding-left: 20px;
     margin-top: 9%;
