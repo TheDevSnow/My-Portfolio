@@ -19,7 +19,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(webistebackground.jpg);
     background-position: center;
     background-size: cover;
-    height: 200vh;
+    height: 250vh;
 }
 
 .navbar{
@@ -178,7 +178,13 @@ ul li a:hover{
 
 /* 3D (images) */
 
-
+.content3d {
+    display: block;
+    float: left;
+    width: 49%;
+    font-family: 'Alien';
+    color: red;    
+}
 
 @media screen and (max-width:1200px) {
     .navbar{
