@@ -13,6 +13,10 @@
     margin: 0;
     padding: 0;
 }
+
+*{
+    box-sizing:border-box;
+}
  
 .main{
     width: 100%;
@@ -184,6 +188,27 @@ ul li a:hover{
     width: 49%;
     font-family: 'Alien';
     color: red;    
+}
+
+/* Programming (images) */
+
+.procontent {
+    display: block;
+    float: left;
+    width: 49%;
+    font-family: 'Alien';
+    color: red; 
+}
+
+
+/* Digital Arts (images) */
+
+.clm{
+    float:left;
+    width:33.33%;
+    padding:3px;
+    font-family: "Alien";
+    color: red;
 }
 
 @media screen and (max-width:1200px) {
