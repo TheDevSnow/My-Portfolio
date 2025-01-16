@@ -1,245 +1,61 @@
-
-@font-face {
-    font-family: 'Robot';
-    src: url(fonts/Robotronica\ Italic.ttf  );
-}
-
-@font-face {
-    font-family: 'Alien';
-    src: url(fonts/Alien\ Robot\ Italic.ttf);
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-*{
-    box-sizing:border-box;
-}
- 
-.main{
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(webistebackground.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 250vh;
-}
-
-.navbar{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-}
-
-.icon{
-    width: 200px;
-	display: inline-block;
-    height: 70px;
-}
-
-.logo{
-    color: white;
-    font-size: 20px;
-    font-family: 'Robot';
-    padding-left: 20px;
-    float: left;
-    padding-top: 30px;
-}
-
-.menu{
-    width: 400px;
-    float: left;
-    height: 70px;
-}
-
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li{
-    list-style: none;
-    margin-left: 62px;
-    margin-top: 30px;
-    font-size: 12px;
-}
-
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Alien';
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-}
-
-ul li a:hover{
-    color: red;
-}
-
-.search{
-    width: 330px;
-    float: left;
-    margin-left: 270px;
-}
-
-.srch{
-    font-family: 'Robot';
-    width: 200px;
-    height: 40px;
-    background: transparent;
-    border: 1px solid #ff7200;
-    margin-top: 13px;
-;
-    color: #fff;
-    border-right: none;
-    font-size: 16px;
-    float: left;
-    padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.btn{
-    width: 100%;
-    height: 40px;
-    background: #ff7200;
-    border: 2px solid #ff7200;
-    margin-top: 13px;
-    color: #fff;
-    font-size: 15px;
-    border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.btn:focus{
-    outline: none;
-}
-
-.srch:focus{
-    outline: none;
-}
-
-.content{
-    width: 1200px;
-    height: auto;
-    margin: auto;
-    color: red;
-}
-
-.content .par{
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: 'Alien';
-    letter-spacing: 1.2px;
-    line-height: 30px;
-}
-
-.content h1{
-    font-family: 'Alien';
-    font-size: 50px;
-    padding-left: 20px;
-    margin-top: 9%;
-    letter-spacing: 2px;
-}
-
-.content .cn{
-    width: 160px;
-    height: 40px;
-    background: #ff7200;
-    border: none;
-    margin-bottom: 10px;
-    margin-left: 20px;
-}
-
-/* About Page */
-
-.aboutcontent{
-    width: 1200px;
-    height: auto;
-    margin: auto;
-    color: red;
-}
-
-.aboutcontent .par{
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: 'Alien';
-    font-size: 15px;
-    letter-spacing: 1.2px;
-    line-height: 30px;
-}
-
-.aboutcontent h1{
-    font-family: 'Alien';
-    font-size: 50px;
-    padding-left: 20px;
-    margin-top: 9%;
-    letter-spacing: 2px;
-}
-
-/* 3D (images) */
-
-.content3d {
-    display: block;
-    float: left;
-    width: 49%;
-    font-family: 'Alien';
-    color: red;    
-}
-
-/* Programming (images) */
-
-.procontent {
-    display: block;
-    float: left;
-    width: 49%;
-    font-family: 'Alien';
-    color: red; 
-}
-
-
-/* Digital Arts (images) */
-
-.clm{
-    float:left;
-    width:33.33%;
-    padding:3px;
-    font-family: "Alien";
-    color: red;
-}
-
-@media screen and (max-width:1200px) {
-    .navbar{
-        width: 100%;
-        height: 100px;
-    }
-    ul{
-        margin-left: 30px;
-    }
-    ul li{
-        margin-left: 60px;
-    }
-    ul li a{
-        font-size: 1.6vw;
-    }
-
-    .search{
-        margin-top: 3px;
-        margin-left: 290px;
-    }
-    .srch{
-        height: 40px;
-        width: 190px;
-        font-size: 14px;
-    }
-    .btn{
-        height: 40px;
-        width: 80px;
-    }
-    .content{
-        width: 100%;
-    }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class ="logo">Work Portfolio</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="programming.html">Programming</a></li>
+                    <li><a href="3d.html">3D</a></li>
+                    <li><a href="digital arts.html">Digital Arts</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="srch" name="" placeholder="Type To text">
+                <a href="#"><button class="btn">Search</button></a>
+            </div>
+            <div class="content">
+                <h1>3D Design</h1>
+            </div>
+            <div class="row">
+                <div class="clm">
+                    <img src="img/The Ring Of Power.png" alt="ring" style="width: 100%;"/>
+                    <h2>Ring Of Power Render</h2>
+                </div>
+                <div class="clm">
+                    <img src="img/dungeon.png" alt="dungeon" style="width: 100%;"/>
+                    <h2>Low Poly Dungeon</h2>
+                </div>
+                <div class="clm">
+                    <img src="img/doorreal.png" alt="door" style="width: 100%;"/>
+                    <h2>Low Poly Door</h2>
+                </div>
+                <div class="clm">
+                    <img src="img/sword.png" alt="sword" style="width: 100%;"/>
+                    <h2>Low Poly Sword Render</h2>
+                </div>
+                <div class="clm">
+                    <img src="img/door.png" alt="chest" style="width: 100%;"/>
+                    <h2>Dungeon Chest</h2>
+                </div>
+                <div class="clm">
+                    <img src="img/gtrvoxel.png" alt="gtr" style="width: 100%;"/>
+                    <h2>Dungeon Chest</h2>
+                <div class="clm">
+                    <img src="img/bathouse.jpg" alt="bat" style="width: 100%;"/>
+                    <h2>Bat House 3D Design</h2>
+                </div>
+            </div>
+        </div>
+   </div> 
+</body>
+</html>
