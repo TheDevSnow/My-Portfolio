@@ -227,6 +227,15 @@ ul li a:hover{
     color: red;
 }
 
+.clm2{
+    float:left;
+    width:33.33%;
+    padding:3px;
+    font-family: "Alien";
+    color: red;
+}
+
+
 @media screen and (max-width:1200px) {
     .navbar{
         width: 100%;
