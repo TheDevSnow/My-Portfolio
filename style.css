@@ -235,6 +235,17 @@ ul li a:hover{
     color: red;
 }
 
+.about{
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+.home{
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
 
 @media screen and (max-width:1200px) {
     .navbar{
