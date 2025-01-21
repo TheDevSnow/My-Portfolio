@@ -26,6 +26,30 @@
     height: 400vh;
 }
 
+.main3d{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(3dbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300vh;
+}
+
+.mainphoto{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(photoshop.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400vh;
+}
+
+.maincoding{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(coding.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+}
+
 .navbar{
     width: 1200px;
     height: 75px;
