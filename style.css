@@ -31,7 +31,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(3dbackground.jpg);
     background-position: center;
     background-size: cover;
-    height: 300vh;
+    height: 400vh;
 }
 
 .mainphoto{
@@ -39,7 +39,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(photoshop.jpg);
     background-position: center;
     background-size: cover;
-    height: 400vh;
+    height: 650vh;
 }
 
 .maincoding{
@@ -47,7 +47,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(coding.jpg);
     background-position: center;
     background-size: cover;
-    height: 200vh;
+    height: 260vh;
 }
 
 .navbar{
