@@ -23,8 +23,31 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(webistebackground.jpg);
     background-position: center;
     background-size: cover;
-    height: 400vh;
+    height: 500vh;
 }
+
+.clm3 {
+    position: fixed;
+    margin-top: 90px; 
+    top: 0;
+    right: 0;
+  }
+  
+.clm4 {
+    position: fixed;
+    margin-right: 120px;
+    margin-top: 100px; 
+    top: 0;
+    right: 0;
+  }
+.clm5 {
+    position: fixed;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 0px; 
+    bottom: 0;
+    right: 0;
+  }
 
 .main3d{
     width: 100%;
@@ -259,6 +282,28 @@ ul li a:hover{
     color: red;
 }
 
+
+.clm3{
+    float:left;
+    width:33.33%;
+    padding:3px;
+    font-family: "Alien";
+    color: red;
+}
+.clm4{
+    float:left;
+    width:33.33%;
+    padding:3px;
+    font-family: "Alien";
+    color: red;
+}
+.clm5{
+    float:left;
+    width:33.33%;
+    padding:3px;
+    font-family: "Alien";
+    color: red;
+}
 .about{
     margin: 0;
     height: 100%;
