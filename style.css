@@ -70,7 +70,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(coding.jpg);
     background-position: center;
     background-size: cover;
-    height: 260vh;
+    height: 400vh;
 }
 
 .navbar{
@@ -229,6 +229,8 @@ ul li a:hover{
 
 /* 3D (images) */
 
+
+
 .content3d {
     display: block;
     float: left;
@@ -251,37 +253,93 @@ ul li a:hover{
 /* Digital Arts (images) */
 
 .clm1{
+    margin-left: 130px;
     float:left;
     width:33.33%;
     padding:3px;
     font-family: "Alien";
     color: red;
 }
+
+
 
 .clm{
+    margin-left: 130px;
     float:left;
-    width:33.33%;
+    width: 400px;
     padding:3px;
     font-family: "Alien";
     color: red;
 }
 
+
+
 .iframe{
+    margin-left: -150px;
     float:left;
-    width:33.33%;
+    width: 1000px;;
     padding:3px;
     font-family: "Alien";
     color: red;
 }
 
 .clm2{
+    margin-left: 130px;
     float:left;
-    width:33.33%;
+    width: 33.3%;;
     padding:3px;
     font-family: "Alien";
     color: red;
 }
 
+
+
+.clm-2{
+    margin-top: -495px;
+    margin-left: 530px;
+    float:left;
+    width: 33.3%;;
+    padding:3px;
+    font-family: "Alien";
+    color: red;
+}
+
+.clm-22{
+    margin-left: -530px;
+    float:left;
+    width: 33.3%;;
+    padding:3px;
+    font-family: "Alien";
+    color: red;
+}
+
+.clm10{
+    margin-left: -530px;
+    float:left;
+    width: 33.3%;
+    padding: 3px;
+    font-family: "Alien";
+    color: red;
+}
+
+.clm11{
+    margin-top: -420px;
+    margin-left: 530px;
+    float:left;
+    width: 33.3%;
+    padding: 3px;
+    font-family: "Alien";
+    color: red;
+}
+
+.clm12{
+    margin-left: -530px;
+    float:left;
+    width: 33.3%;
+    padding: 3px;
+    font-family: "Alien";
+    color: red;
+}
 
 .clm3{
     float:left;
