@@ -273,9 +273,14 @@ ul li a:hover{
 }
 
 
+.clm13{
+    margin-left: 550px;
+    margin-top: -450px;
+}
+
 
 .iframe{
-    margin-left: -150px;
+    margin-left: -680px;
     float:left;
     width: 1000px;;
     padding:3px;
@@ -292,7 +297,14 @@ ul li a:hover{
     color: red;
 }
 
-
+.clm-3{
+    margin-top: -550px;
+    margin-left: 530px;
+    width: 33.3%;
+    padding: 3px;
+    float: left;
+    
+}
 
 .clm-2{
     margin-top: -495px;
